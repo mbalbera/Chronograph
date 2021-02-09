@@ -4,7 +4,30 @@ This was a case study to showcase both front-end and back-end skill sets.
 
 ## Part 1
 
-Part one tested my SQL and database knowledge. Based on the following Schema which can be found in the Schema.png file in this directory. 
+Part one tested my SQL and database knowledge.
+
+classDiagram
+class Report{
+    int id
+    string title
+}
+
+classDiagram
+class Document{
+    int id
+    int report_id
+    string name
+    string filetype
+}
+
+classDiagram
+class Page{
+    int id
+    int document_id
+    text body
+    text footnote
+}
+
 
 1. Write a SQL query to find the ids of all documents which do not have any pages.
 2. Write a SQL query which returns a list of report titles and the total number of pages in the report. Reports which do not have pages may be ignored.
