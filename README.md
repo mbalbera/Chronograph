@@ -15,7 +15,8 @@ Part one tested my SQL and database knowledge. Based on the following Schema whi
 
 Part two tested my front-end JS know-how using the following data store.
 
-```store = {
+```
+store = {
     document: {
         8: { id: 8, report_id: 4, name: 'Sample Document', filetype: 'txt' },
         34: { id: 34, report_id: 21, name: 'Quarterly Report', filetype: 'pdf' },
@@ -30,7 +31,8 @@ Part two tested my front-end JS know-how using the following data store.
         4: { id: 4, title: 'Sample Report' },
         21: { id: 21, title: 'Portfolio Summary 2020' },
     },
-}```
+}
+```
 
 1. Return an object which maps report_ids to the total number of Pages in the Report.
 2. Please write a search function which accepts a string and returns a list of Reports. Any string field in our schema may contain relevant text matches, excluding Document.filetype.
